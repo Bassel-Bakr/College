@@ -29,13 +29,14 @@ public class WithOOP {
 	}
 
 	/*
-	 * Just like Student class, this one extends/inherits Person's fields
+	 * Just like Student class, this one extends/inherits PaidEmployee 
+	 * which in turn inherits Person's fields
 	 */
 	public static class FacultyStaff extends PaidEmployee {
 		public String degree;
 	}
 
 	public static class Worker extends PaidEmployee {
-		public String degree;
+		public String position;
 	}
 }
