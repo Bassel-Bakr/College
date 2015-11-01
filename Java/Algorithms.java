@@ -33,6 +33,8 @@ public class Algorithms {
     return result;
   }
   
+  
+  
   /*
    * fibonacci(x) = fibonacci(x - 1) + fibonacci(x - 2)
    */
@@ -45,9 +47,18 @@ public class Algorithms {
       return recursive_fibonacci(num - 1) + recursive_fibonacci(num - 2);
   }
   
+  /*
+   * A bottom-up algorithm, instead of starting from num to 0, we will start from 1 to num
+   * Since fibonacci of 3 is fib(1) + fib(2) = 1 + 1 = 2
+   * We will calculate these values before hand
+   * And since fib(x) = fib(x - 1) + fib(x - 2)
+   * we will just sum and swap values until we finish number 3 through (num)
+   */
   public static int iterative_fibonacci(int num) {
     if(num < 0)
       throw new IllegalArgumentException("No fibonacci for negative numbers!");
+    else if(num == 0)
+      return 0;
     
     int x_1, x_2;
     x_1 = x_2 = 1;
