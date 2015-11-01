@@ -39,8 +39,8 @@ public class WithoutOOP {
 		public String first_name, middle_name, last_name;
 
 		/*
-		 * OOPS!!! I forgot to write the commented line Good luck finding the
-		 * root of the problem :D
+		 * OOPS!!! I forgot to write the commented line 
+		 * Good luck finding the root of the problem :D
 		 */
 
 		// public int salary;
