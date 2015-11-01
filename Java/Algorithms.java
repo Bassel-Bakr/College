@@ -57,7 +57,7 @@ public class Algorithms {
     while(num-- > 2) {
       result += x_1 + x_2;
       x_1 = x_2;
-      x_2 = result
+      x_2 = result;
     }
   }
 }
