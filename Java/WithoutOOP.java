@@ -53,6 +53,6 @@ public class WithoutOOP {
 		public int ID, age;
 		public String first_name, middle_name, last_name;
 		public int salary;
-		public String degree;
+		public String position;
 	}
 }
