@@ -96,6 +96,18 @@ public class JavaOperators {
 		print("x <= y = " + bresult);
 		bresult = (y <= x);
 		print("y <= x = " + bresult);
+
+		// AND &&
+		bresult = (x <= y && x == 3);
+		print("(x <= y && x == 3) = " + bresult);
+		bresult = (y <= x && x == 5);
+		print("(y <= x && x == 5) = " + bresult);
+
+		// OR ||
+		bresult = (x <= y || x == 3);
+		print("(x <= y || x == 3 = " + bresult);
+		bresult = (y <= x || x == 5);
+		print("(y <= x || x == 5) = " + bresult);
 		
 		/*
 		 * Bitwise operators
