@@ -70,5 +70,7 @@ public class Algorithms {
       x_1 = x_2;
       x_2 = result;
     }
+    
+    return result;
   }
 }
